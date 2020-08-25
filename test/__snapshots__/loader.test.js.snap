@@ -347,6 +347,16 @@ Failed to parse source map: \\"ftp://exampleurl.com\\" URL is not supported",
 ]
 `;
 
+exports[`source-map-loader should skip SourceMaps for suppressed resources: css 1`] = `
+"with SourceMap
+//#sourceMappingURL=external-source-map.map
+// comment"
+`;
+
+exports[`source-map-loader should skip SourceMaps for suppressed resources: errors 1`] = `Array []`;
+
+exports[`source-map-loader should skip SourceMaps for suppressed resources: warnings 1`] = `Array []`;
+
 exports[`source-map-loader should skip file protocol path if sourcesContent is set: css 1`] = `
 "// Some content
  "
