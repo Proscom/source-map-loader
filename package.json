@@ -1,16 +1,12 @@
 {
-  "name": "source-map-loader",
+  "name": "@proscom/source-map-loader",
   "version": "1.0.2",
-  "description": "extracts inlined source map and offers it to webpack",
+  "description": "fork of source-map-loader with ability to suppress warnings for broken sourcemaps",
   "license": "MIT",
-  "repository": "webpack-contrib/source-map-loader",
-  "author": "Tobias Koppers @sokra",
-  "homepage": "https://github.com/webpack-contrib/source-map-loader",
-  "bugs": "https://github.com/webpack-contrib/source-map-loader/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/webpack"
-  },
+  "repository": "Proscom/source-map-loader",
+  "author": "Andrew Starostin @mayorandrew",
+  "homepage": "https://github.com/Proscom/source-map-loader",
+  "bugs": "https://github.com/Proscom/source-map-loader/issues",
   "main": "dist/cjs.js",
   "engines": {
     "node": ">= 10.13.0"
