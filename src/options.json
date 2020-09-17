@@ -3,6 +3,9 @@
   "properties": {
     "skipResource": {
       "instanceof": "Function"
+    },
+    "skipSourceUrl": {
+      "instanceof": "Function"
     }
   },
   "additionalProperties": false

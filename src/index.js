@@ -18,7 +18,7 @@ export default async function loader(input, inputMap) {
     baseDataPath: 'options',
   });
 
-  const { skipResource } = options;
+  const { skipResource, skipSourceUrl } = options;
 
   const { sourceMappingURL, replacementString } = getSourceMappingURL(input);
   const callback = this.async();
@@ -85,7 +85,8 @@ export default async function loader(input, inputMap) {
         map.sourcesContent && map.sourcesContent[i]
           ? map.sourcesContent[i]
           : null;
-      const skipReading = originalSourceContent !== null;
+      const shouldSkip = skipSourceUrl && skipSourceUrl(context, source, map);
+      const skipReading = originalSourceContent !== null || shouldSkip;
 
       // We do not skipReading here, because we need absolute paths in sources.
       // This is necessary so that for sourceMaps with the same file structure in sources, name collisions do not occur.
