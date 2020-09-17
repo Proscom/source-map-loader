@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Proscom/source-map-loader/compare/v1.1.0...v1.1.1) (2020-09-17)
+
+
+### Features
+
+* added skip source url method ([a3ad72b](https://github.com/Proscom/source-map-loader/commit/a3ad72b06d2c54355f5a852cd7044e6b3b4eea1c))
+
 ## [1.1.0](https://github.com/Proscom/source-map-loader/compare/v1.0.2...v1.1.0) (2020-08-25)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@proscom/source-map-loader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "fork of source-map-loader with ability to suppress warnings for broken sourcemaps",
   "license": "MIT",
   "repository": "Proscom/source-map-loader",
